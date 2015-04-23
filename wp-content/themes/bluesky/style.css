@@ -21,7 +21,6 @@ body{
 }
 
 .template-container {
-	 max-width: 1085px;
 	 margin: 0 auto;
 }
 
@@ -63,7 +62,8 @@ body{
 
 /* Style Sheet for Top Main Section */
 #main-section{
-	overflow:hidden; background:url(img/first-main-bg.jpg) top left no-repeat; background-size:contain;
+	overflow:hidden; 
+	background:url(img/first-main-bg.jpg) top left no-repeat; background-size:contain;
 }
 #main-section #main-logo{
 	width:51%; margin:33px auto 0px;	
@@ -78,7 +78,8 @@ body{
 	display:inline-block; margin:0px auto;
 }
 #main-section #people-comments{
-	overflow:hidden; padding:40px 15px; background:url(img/sand-bg.jpg) 50% 106px no-repeat; background-size:cover;
+	overflow:hidden; padding:40px 15px; 
+/*	background:url(img/sand-bg.jpg) 50% 106px no-repeat; background-size:cover;*/
 }
 #main-section #people-comments #main-people-pics{
 	overflow:hidden;
@@ -99,7 +100,9 @@ body{
 
 /* Stylesheet for bluesky experience section */
 #bluesky-experience-section{
-	background:url(img/sand-bg.jpg) #3f9dd7 50% 320px no-repeat; background-size:cover; text-align:center;
+/*	background:url(img/sand-bg.jpg) #3f9dd7 50% 320px no-repeat; background-size:cover;*/
+background: #3f9dd7 50% 320px no-repeat; background-size:cover;
+	 text-align:center;
 }
 #bluesky-experience-section h2{
 	color:#FFFFFF; font-family: 'Oswald', sans-serif; font-size:36px; padding:20px 0 0 0;
@@ -120,7 +123,8 @@ body{
 
 /* Stylesheet for entertainment section */
 #entertainment-section{
-	background:url(img/sand-bg.jpg) #1b3545 50% 420px no-repeat; background-size:cover; text-align:center;
+/*	background:url(img/sand-bg.jpg) #1b3545 50% 420px no-repeat; background-size:cover; */
+	text-align:center;
 }
 #entertainment-section h2{
 	color:#3e9bd6; font-family: 'Oswald', sans-serif; font-size:36px; padding:20px 0 0 0;
@@ -138,7 +142,8 @@ body{
 
 /* Stylesheet for extra section */
 #extra-section{
-	background:url(img/sand-bg.jpg) #3f9dd7 50% 290px no-repeat; background-size:cover; text-align:center;
+/*	background:url(img/sand-bg.jpg) #3f9dd7 50% 290px no-repeat; background-size:cover; */
+	text-align:center;
 }
 #extra-section h2{
 	color:#FFFFFF; font-family: 'Oswald', sans-serif; font-size:36px; padding:20px 0 0 0;
@@ -153,7 +158,8 @@ body{
 
 /* stylesheet for book your package */
 #book-your-package{
-	background:url(img/sand-bg.jpg) 50% 0px repeat-y; background-size:contain; text-align:center; color:#1b3545;
+/*	background:url(img/sand-bg.jpg) 50% 0px repeat-y; background-size:contain; */
+	text-align:center; color:#1b3545;
 }
 #book-your-package h2{
 	color:#1b3545; font-family: 'Oswald', sans-serif; font-size:36px; padding:0; font-weight:normal;
@@ -240,7 +246,10 @@ body{
 
 /* Package & Payment Information Section CSS */
 #package-payment-section{
-	overflow:hidden; padding:30px; background:url(img/package-info-bottom-sand-bg.jpg) #f9f7f5 50% bottom no-repeat; background-size:contain; color:#42525e; font-family: 'Open Sans', sans-serif;
+	overflow:hidden; padding:30px;
+	/* background:url(img/package-info-bottom-sand-bg.jpg) #f9f7f5 50% bottom no-repeat; background-size:contain; */
+	 color:#42525e; 
+	 font-family: 'Open Sans', sans-serif;
 }
 #package-payment-section h2{
 	color:#57a8d7; font-size:26px; padding:0 0 10px 0; margin:0px;

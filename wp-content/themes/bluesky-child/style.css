@@ -1,6 +1,6 @@
 /*
     
-    Theme Name: bluesky
+    Theme Name: bluesky-child
     Theme URI: bluesky.com
     Author: Dylan Peti
     Author URI: 
@@ -9,7 +9,7 @@
     Description: A premium wordpress blog Theme.
     License: GNU General Public License v2 or later
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
-    Text Domain: readpress
+    Text Domain: bluesky
 
 */
 
@@ -18,4 +18,130 @@
 /* Theme customization starts here
 
 ------------------------------------------------------- */
+
+.container-content{
+ 
+  max-width: 1085px;
+  margin: 0 auto;
+
+}
+
+
+.background-main{
+  background: url(http://tourismhq.com/bluesky/wp-content/uploads/2015/03/bkg-home-image.jpg) #f9f7f5 50% bottom no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+#extra-section h2, #extra-section p, #entertainment-section p{
+
+color: #1b3545;
+}
+#main-section #main-video{
+    height: auto;
+}
+#main-section #people-comments #main-people-comments .info-box{
+    height: auto;
+}
+#main-section:before{
+    display: none;
+}
+#main-section #main-logo{
+    margin: 0 auto;
+    padding-top: 33px;}
+.media{
+    width: 100%;
+    text-align: center;
+}
+.media img{
+    display: inline-block;
+    width: auto;
+    margin: 10px;
+}
+@media (max-width: 480px){
+    .media img{
+        margin: 10px auto;
+        display: block;
+    }
+    #book-your-package ul li div.package-price{
+        padding: 0;
+        text-align: left;
+        line-height: 2;
+    }
+    #book-your-package ul li div.package-buttons{
+        text-align: left;
+        padding: 0 0 20px 0px;
+    }
+    #book-your-package ul li p{
+        margin: 10px auto 0 auto;
+    }
+    .col-sm-12{
+        padding: 0;
+    }
+
+    #info-box{
+        max-width: 220px;
+    }
+}
+
+
+
+@media (max-width: 991px){
+    #main-content{
+    width: 100%;
+    height: auto;
+     background:url(/wp-content/themes/bluesky/img/first-main-bg.jpg) top left no-repeat; background-size: 100% 100%;
+}
+#main-section{
+    background: none;
+}
+    .col-sm-12{
+
+        width: auto;
+        padding: 0;
+    }
+    .media img{
+        width: auto !important;
+    }
+     .media{
+/*        display: inline-block;*/
+     }
+
+     #main-section #main-video{
+        height: auto;
+        padding-bottom: 20px;
+       
+     }
+     #main-section #people-comments #main-people-pics{
+   /* text-align: center;*/
+}
+   #book-your-package ul li div.package-price{
+    line-height: 2;
+    text-align: left;
+    padding: 0;
+   }
+   #book-your-package ul li div.package-buttons{
+    text-align: left;
+   }
+   .testimonial{
+    margin: 10px auto;
+    width: 100%;
+    float: left;
+   }
+   .testimonial img{
+    float: left;
+   }
+    .testimonial #info-box{
+        float: left !important;
+    }
+
+   
+}
 
