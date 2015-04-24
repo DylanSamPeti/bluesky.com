@@ -16,7 +16,7 @@ get_header(); ?>
 
         <div id="main-content">
       
-        <div id="main-logo"><a href="#book-your-package"><img src="<?php bloginfo( 'template_url' ); ?>/img/main-logo.png" width="100%" alt=""></a></div>
+        <div id="main-logo"><a href="#book-your-package"><img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/bluesky-book-now.png" width="100%" alt="bluesky book now" ></a></div>
         
         <div id="main-event"><?php echo the_secondary_content( 'Event Date', 2 ); ?></div>
         
@@ -31,22 +31,22 @@ get_header(); ?>
 
         
           <div id="main-people-pics">
-            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-01.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-02.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-03.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-04.jpg" width="100%" alt="">
+            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-01.jpg" width="100%" alt="book a bluesky fiji trip" >
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-02.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-03.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-04.jpg" width="100%" alt="book your bluesky fiji trip" >
           </div>
           </div>
           
           <div id="main-people-comments">
             <div class="testimonial col-lg-6 col-md-6 col-sm-12 col-xm-12">
-              <img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-testimonial-01.jpg" width="129" height="129" alt="" class="img-circle">
+              <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-testimonial-01.jpg" width="129" height="129" alt="book a bluesky fiji trip" class="img-circle">
               <div id="info-box" class="col-lg-6 col-md-6 col-sm-12 col-xm-12 info-box">
                 <strong>"Insainely fun. Can not wait for the next one!!"</strong><br />Jane Dowe
               </div>
             </div>
             <div class="testimonial col-lg-6 col-md-6 col-sm-12 col-xm-12">
-              <img src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-testimonial-02.jpg" width="129" height="129" alt="" class="img-circle">
+              <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/main-people-pic-testimonial-02.jpg" width="129" height="129" alt="book a bluesky fiji trip"  class="img-circle">
               <div id="info-box" class="col-lg-6 col-md-6 col-sm-12 col-xm-12 info-box">
                 <strong>"Amazing party, amazing experience. Best trip ever!"</strong><br />James Appleseed
               </div>
@@ -68,10 +68,10 @@ get_header(); ?>
           <?php the_secondary_content( 'Experience', 2 ); ?>
           
           <div id="experience-people-pics">
-            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-01.jpg" width="100%" alt="">
-          <img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-02.jpg" width="100%" alt="">
-           <img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-03.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-04.jpg" width="100%" alt=""></div>
+            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-01.jpg" width="100%" alt="book your bluesky fiji trip">
+           <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-02.jpg" width="100%" alt="book your bluesky fiji trip">
+           <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-03.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img src="<?php bloginfo( 'template_url' ); ?>/img/experience-people-pic-04.jpg" width="100%" alt="book your bluesky fiji trip"></div>
           </div>
           
         </div>
@@ -89,10 +89,10 @@ get_header(); ?>
           <?php the_secondary_content( 'Entertainment', 2 ); ?>
           
           <div id="entertainment-people-pics">
-            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-01.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-02.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-03.jpg" width="100%" alt="">
-           <img src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-04.jpg" width="100%" alt=""></div>
+            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-01.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-02.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-03.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/entertainment-pic-04.jpg" width="100%"alt="book your bluesky fiji trip"></div>
           </div>
           
         </div>
@@ -110,10 +110,10 @@ get_header(); ?>
           <?php the_secondary_content( 'Activity', 2 ); ?>
           
           <div id="extra-people-pics">
-            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-01.jpg" width="100%" alt="">
-          <img src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-02.jpg" width="100%" alt="">
-           <img src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-03.jpg" width="100%" alt="">
-            <img src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-04.jpg" width="100%" alt=""></div>
+            <div class="media col-lg-3 col-md-3 col-sm-12 col-xm-12"><img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-01.jpg" width="100%" alt="book your bluesky fiji trip">
+          <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-02.jpg" width="100%" alt="book your bluesky fiji trip">
+           <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-03.jpg" width="100%" alt="book your bluesky fiji trip">
+            <img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/extra-pic-04.jpg" width="100%" alt="book your bluesky fiji trip"></div>
           </div>
           
         </div>
@@ -145,8 +145,8 @@ get_header(); ?>
               <?php echo get_post_meta(get_the_id(), 'Price', true); ?>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 package-buttons">
-              <a href="<?php the_permalink(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/btn-info.jpg" width="99" height="52" alt=""></a>
-              <a href="<?php the_permalink(); ?>"><img src="<?php bloginfo( 'template_url' ); ?>/img/btn-booknow.jpg" width="165" height="51" alt=""></a>
+              <a href="<?php the_permalink(); ?>"><img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/btn-info.jpg" width="99" height="52" alt=""></a>
+              <a href="<?php the_permalink(); ?>"><img title="book a bluseky trip" src="<?php bloginfo( 'template_url' ); ?>/img/btn-booknow.jpg" width="165" height="51" alt=""></a>
             </div>
           </li>
         <?php endwhile; else: ?>

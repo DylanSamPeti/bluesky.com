@@ -1,10 +1,18 @@
+<?php
+
+  $site_description = get_bloginfo( 'description', 'display' );
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php
+    <meta name="description" content="<?php echo $site_description; ?>">
+    <meta>
+<title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
 	 */
@@ -16,7 +24,7 @@
 	bloginfo( 'name' );
 
 	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
+
 	if ( $site_description && ( is_home() || is_front_page() ) )
 		echo " | $site_description";
 
@@ -24,11 +32,13 @@
 	if ( $paged >= 2 || $page >= 2 )
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
-	?></title>
+	?>
+</title>
 
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="screen"> 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
