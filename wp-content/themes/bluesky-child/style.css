@@ -25,7 +25,13 @@
   margin: 0 auto;
 
 }
+.clear {
+    clear: both;
+}
 
+.navigation{
+    padding: 0;
+}
 
 .background-main{
   background: url(http://tourismhq.com/bluesky/wp-content/uploads/2015/03/bkg-home-image.jpg) #f9f7f5 50% bottom no-repeat;
@@ -39,10 +45,47 @@
 
 }
 
+#main-section{
+}
+
+.bk-img{
+    background:url(../bluesky/img/first-main-bg.jpg) top left no-repeat; background-size: cover;
+    padding-bottom: 100px;
+}
+.bk-img, #bluesky-experience-section{
+    padding-bottom: 100px;
+}
+
+#entertainment-section{
+    clear:both;
+    background-color: #1b3545;
+    padding-bottom: 100px;
+}
+
+#main-section #people-comments{
+    margin-top: -73px;
+}
+
+.media.template{
+    margin-top: -73px;
+    padding-bottom: 50px;
+}
+
+#extra-section{
+    background-color: #3f9dd7;
+    padding-bottom: 100px;
+}
+#main-section #people-comments{
+
+    padding-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding: 0 15px 50px 15px;
+}
 
 #extra-section h2, #extra-section p, #entertainment-section p{
 
-color: #1b3545;
+color: #fff;
 }
 #main-section #main-video{
     height: auto;
@@ -60,10 +103,28 @@ color: #1b3545;
     width: 100%;
     text-align: center;
 }
+.navbar-nav{
+    float: right;
+}
 .media img{
     display: inline-block;
     width: auto;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+
+#book-your-package .booking-price{
+    color: #3f9dd7;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1;
+    vertical-align: middle;
+    padding-right: 10px;
+    margin: 0 0 5px 0;
+
+}
+.package-buttons p {
+    display: inline-block;
 }
 @media (max-width: 480px){
     .media img{
@@ -89,16 +150,20 @@ color: #1b3545;
     #info-box{
         max-width: 220px;
     }
+    .testimonial img{
+        width: 65px;
+        height: 65px;
+    }
+    #main-section #people-comments #main-people-comments .info-box{
+        font-size: 16px;
+        padding: 0 0 0 20px;
+    }
 }
 
 
 
 @media (max-width: 991px){
-    #main-content{
-    width: 100%;
-    height: auto;
-     background:url(/wp-content/themes/bluesky/img/first-main-bg.jpg) top left no-repeat; background-size: 100% 100%;
-}
+
 #main-section{
     background: none;
 }
@@ -122,14 +187,16 @@ color: #1b3545;
      #main-section #people-comments #main-people-pics{
    /* text-align: center;*/
 }
-   #book-your-package ul li div.package-price{
-    line-height: 2;
-    text-align: left;
-    padding: 0;
-   }
+
    #book-your-package ul li div.package-buttons{
     text-align: left;
    }
+    #book-your-package .booking-price{
+        margin: 10px 0;
+    }
+    .package-buttons p{
+        display: block;
+    }
    .testimonial{
     margin: 10px auto;
     width: 100%;

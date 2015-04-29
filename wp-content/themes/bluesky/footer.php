@@ -1,5 +1,6 @@
       <!-- Footer Section -->
       <div id="footer" class="row">
+          <div class="container">
       
         <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 logo">
             <a href="http://www.tourismhq.com/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/img/tourismhq-logo.png" border="0"></a>
@@ -13,6 +14,9 @@
 
         <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 facebook-widget">
             <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FBlueSkyExperience&amp;width=302&amp;height=258&amp;colorscheme=dark&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=340456316047618" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:302px; height:258px;" allowTransparency="true"></iframe>
+        </div>
+
+
         </div>
 
       </div>
