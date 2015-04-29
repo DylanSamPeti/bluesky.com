@@ -150,6 +150,14 @@ color: #fff;
     #info-box{
         max-width: 220px;
     }
+    .testimonial img{
+        width: 65px;
+        height: 65px;
+    }
+    #main-section #people-comments #main-people-comments .info-box{
+        font-size: 16px;
+        padding: 0 0 0 20px;
+    }
 }
 
 
