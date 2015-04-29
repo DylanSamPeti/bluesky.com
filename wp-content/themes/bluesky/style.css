@@ -62,8 +62,7 @@ body{
 
 /* Style Sheet for Top Main Section */
 #main-section{
-	overflow:hidden; 
-	background:url(img/first-main-bg.jpg) top left no-repeat; background-size:contain;
+	overflow:hidden;
 }
 #main-section #main-logo{
 	width:51%; margin:33px auto 0px;	

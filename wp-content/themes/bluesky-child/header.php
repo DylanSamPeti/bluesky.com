@@ -28,7 +28,8 @@
 
     <!-- Bootstrap -->
     <link href="<?php bloginfo( 'template_url' ); ?>/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="screen"> 
+    <link href="<?php bloginfo( 'stylesheet_url' ); ?>" rel="stylesheet" media="screen">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +57,7 @@
   <body>
         <div class="background-main"></div>
   
-  <div class="template-container">
+
   
     <div class="container-fluid">
     
@@ -64,14 +65,18 @@
       <div class="topnav row" id="home">
       
       	<!-- Logo -->
-        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 logo">
-          <a href="<?php echo home_url(); ?>#home"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png" width="125" height="30" alt="" border="0"></a>
-        </div>
+
 		
         <!-- Navigation Links -->
-        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 navigation">
+          <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 navigation">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 logo">
+                <a href="<?php echo home_url(); ?>#home"><img src="<?php bloginfo( 'template_url' ); ?>/img/logo.png" width="125" height="30" alt="" border="0"></a>
+            </div>
+
         
-          <div class="navbar navbar-default navbar-right" role="navigation">
+          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 navbar navbar-default navbar-right" role="navigation">
+
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse">
                   <span class="sr-only">Toggle navigation</span>
@@ -83,6 +88,7 @@
               <div class="navbar-collapse collapse">
                 <?php wp_nav_menu( array('menu' => 'Top Navigation', 'container' => false, 'menu_class' => 'nav navbar-nav' )); ?>
               </div><!--/.nav-collapse -->
+            </div>
           </div>
         
         </div>
