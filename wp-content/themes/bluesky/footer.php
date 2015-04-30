@@ -5,7 +5,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 logo">
             <a href="http://www.tourismhq.com/" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/img/tourismhq-logo.png" border="0"></a>
             <p>Copyright <?php echo date('Y'); ?> Tourism HQ Ltd</p>
-            <p><a href="http://gomomentum.marketing/">Site by Momentum Marketing Ltd</a></p>
+            <p>Site by <a href="http://gomomentum.marketing/">Momentum Marketing Ltd</a></p>
         </div>
       
         <div class="col-lg-4 col-md-4 col-sm-12 col-xm-12 links">
